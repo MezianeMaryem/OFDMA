@@ -4,6 +4,23 @@ body {
     padding: 0;
 }
 
+#canvas-container {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-user-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
 h1 {
     text-align: center;
     margin-top: 50px;
@@ -44,12 +61,30 @@ h1 {
     background-color: #28a745;
 }
 
-.btn-custom {
+.btn-custom,
+.btn-primary {
     background-color: #dc3545;
     border-color: #dc3545;
+    color: black;
+    width: 150px;
+    height: 40px;
 }
 
-.btn-custom:hover {
+.btn-custom:hover,
+.btn-primary:hover {
     background-color: #c82333;
     border-color: #bd2130;
+    color: black;
 }
+
+.btn-custom:active,
+.btn-primary:active {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: black;
+}
+
+#results h2 {
+    text-align: left;
+}
+
